@@ -91,9 +91,19 @@ ul.NavUl li {
     height: 70vh;
     
 }
-.section1>div {
+/* .section1>div>div.container {
     width: 90vw;
+    height: 70vh;
     margin-left:10vw;
+    flex-direction: column;
+} */
+
+.containerSection1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    height: 70vh;
+    justify-content: center;
 }
 .section1 div p{
     width: 20rem;
@@ -241,7 +251,7 @@ h5{
 .mockups{
     position: relative;
     width: 38vw;
-    top:-5rem;
+    top:-38rem;
     z-index: 0;
-    right: -9rem;
+    right: -65rem;
 }
