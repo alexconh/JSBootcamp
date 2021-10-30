@@ -1,0 +1,33 @@
+.inputShape {
+    /* list-style-type: none; */
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.inputShape input#square:checked ~ .shape {
+    width: 10rem;
+    height: 10rem;
+    background-color: aquamarine;
+}
+
+.inputShape input#circle:checked ~ .shape {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    background-color: aquamarine;
+}
+
+.inputShape input#triangle:checked ~ .shape {
+    width: 0;
+    height: 0;
+    border-left: 5rem solid transparent;
+    border-right: 5rem solid transparent;
+    border-bottom: 10rem solid aquamarine;
+    /* background-color: white; */
+}
+
+.inputShape input#rectangle:checked ~ .shape {
+    width: 20rem;
+    height: 10rem;
+    background-color: aquamarine;
+}
