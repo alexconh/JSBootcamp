@@ -225,8 +225,10 @@ h4{
 
 .card>img{
     width: 18vw;
+    height: 200px;
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem;
+    object-fit: cover;
 }
 
 .card>div>p:first-of-type{
@@ -250,7 +252,7 @@ h5{
 }
 .mockups{
     position: relative;
-    width: 38vw;
+    width: 38rem;
     top:-38rem;
     z-index: 0;
     right: -65rem;
